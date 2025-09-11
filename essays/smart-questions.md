@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Asking Smart Questions: Why Clarity Matters in Software Engineering
+title: "Asking Smart Questions: Why Clarity Matters in Software Engineering"
 # All dates must be YYYY-MM-DD format!
 date: 2025-09-10
 published: true
