@@ -11,8 +11,6 @@ labels:
   - StackOverflow
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
-
 ## Introduction
 In software engineering, being able to ask technical questions is one of the most important skills you can have. Eric Raymond’s essay *“How to Ask Questions the Smart Way”* explains how asking questions clearly and specifically will make the difference between getting help and being ignored.  
 I will compare one real smart question and one “not smart” question from Stack Overflow to see how they affected the quality of responses. This shows why communication skills are essential for software engineers.
