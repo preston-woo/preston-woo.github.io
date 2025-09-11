@@ -1,9 +1,9 @@
 ---
 layout: essay
 type: essay
-title: "Smart Questions, Good Answers"
+title: Asking Smart Questions: Why Clarity Matters in Software Engineering
 # All dates must be YYYY-MM-DD format!
-date: 2015-09-08
+date: 2025-09-10
 published: true
 labels:
   - Questions
@@ -13,87 +13,72 @@ labels:
 
 <img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
 
-## Is there such thing as a stupid question?
+## Introduction
+In software engineering, being able to ask technical questions is one of the most important skills you can have. Eric Raymond’s essay *“How to Ask Questions the Smart Way”* explains how asking questions clearly and specifically will make the difference between getting help and being ignored.  
+I will compare one real smart question and one “not smart” question from Stack Overflow to see how they affected the quality of responses. This shows why communication skills are essential for software engineers.
 
-I’ve had instructors address a whole class and say, “There’s no such thing as a stupid question.” I now know that is in fact not true because I’ve challenged the statement and received the appropriate dumb-stricken, annoyed look. There are definitely stupid questions, and along with that, usually unhelpful answers. Though we all might be guilty of being callous and making people victim to our poorly formed questions, there are steps we can take to ask smarter questions that hopefully don’t illicit the dreaded “rtfm” or “stfw” response.
+---
 
-## What’s a smart question?
+## Smart Question Example
 
-Stack Overflow, a question and answer site for programmers, is a great resource for anyone who may have issues with code or who may simply want to learn new or different methods of doing something. There I found examples of good questions and bad questions, which could probably be improved.
+**Question:**  
+[Issue with running C/C++ with code runner on vscode](https://stackoverflow.com/questions/XXXXXXXX)
 
-In the following example, we examine the components of a decent question. In this case, the asker is trying to figure out a way to get the date of the previous month in Python.
+**Summary:**  
+A developer was having trouble running C and C++ files using Code Runner in Visual Studio Code. They consistently got this error:  
+`cc1.exe: fatal error: *.C: Invalid argument`  
+They shared their **settings.json** configuration, explained that their compiler works, and stated that this problem had persisted for months. They used code blocks, formatted their text clearly, and respectfully asked for help.
 
-```
-Q: python date of the previous month
+**Why it’s Smart:**
+- Clear, descriptive title that states the problem
+- Detailed explanation of what they tried and what error they received
+- Shared relevant environment details (`settings.json` code)
+- Well-formatted and easy to read
+- Polite tone showing respect for others’ time
 
-I am trying to get the date of the previous month with python. Here is what i've tried:
+**Responses:**  
+The community gave several detailed, respectful answers:
+- One user explained how wildcards (`*.c`) don’t expand in Windows PowerShell.
+- Another showed how to fix the issue using `$fileName`, and another suggested using MSYS2/MinGW or `bash -c`.
+- Comments also gave constructive advice on improving the question title.  
 
-str( time.strftime('%Y') ) + str( int(time.strftime('%m'))-1 )
+This shows that asking clearly and showing effort encourages others to give high-quality answers.
 
-However, this way is bad for 2 reasons: First it returns 20122 for the February of 2012 (instead of 201202) 
-and secondly it will return 0 instead of 12 on January.
+---
 
-I have solved this trouble in bash with:
+## Not Smart Question Example
 
-echo $(date -d"3 month ago" "+%G%m%d")
+**Question (made-up):**  
+**Title:** Help plz!!! C++ not working 😭😭😭  
 
-I think that if bash has a built-in way for this purpose, then python, much more equipped, should provide something 
-better than forcing writing one's own script to achieve this goal. Of course i could do something like:
+> I’m trying to do my project for school in C++ but it keeps giving me an error and won’t compile.  
+> Can someone tell me what’s wrong and fix it for me???  
+> It worked on my friend’s computer but not mine.  
+> **Urgent — need answer fast!!!!**
 
-if int(time.strftime('%m')) == 1:
-    return '12'
-else:
-    if int(time.strftime('%m')) < 10:
-        return '0'+str(time.strftime('%m')-1)
-    else:
-        return str(time.strftime('%m') -1)
-        
-I have not tested this code and i don't want to use it anyway (unless I can't find any other way:/)
+**Why it’s Not Smart:**
+- Vague and missing key info (no code, no error message, no environment details)
+- Shows no research or troubleshooting effort
+- Uses a demanding tone (“fix it for me” and “urgent”)
+- Poor grammar and formatting, uses emojis and all caps
+- Doesn’t state the actual goal or problem
 
-Thanks for your help!
-```
+**Responses (hypothetical):**
+- Comments asking for more details (“What’s the error message?”)
+- A dismissive “Works on my machine 🤷” answer (downvoted)
+- A vague “Try reinstalling C++” answer with no explanation (downvoted)  
 
-While the heading of his question could be better, it does convey what he’s trying to figure out. Usually something as brief as “python date of previous month” is what other users would enter in as search terms on Google, making it easily found. Another good thing about the question is that it’s not just a question. The asker shows what he or she has done and that he or she has put in some effort to answer the question. And while it may not be as important as the question itself, the asker shows courtesy, which does increase the chance of getting an answer.
+This shows how vague questions often waste people’s time and get ignored or mocked.
 
-```
-A: datetime and the datetime.timedelta classes are your friend.
+---
 
-1. find today
-2. use that to find the first day of this month.
-3. use timedelta to backup a single day, to the last day of the previous month.
-4. print the YYYYMM string you're looking for.
+## Reflection
+Comparing these two examples displayed how important the quality of the question is. The smart question got fast, helpful, technical answers because it was specific and respectful. The “not smart” question got frustration, confusion, and no real help because it gave no useful information and sounded demanding.  
 
-Like this:
+As a future software engineer, the way I ask a question can determine whether I get an answer at all. Before asking for help, I must first assist others in understanding my problem by showing what I tried, what failed, and what I need. 
 
- >>> import datetime
- >>> today = datetime.date.today()
- >>> first = datetime.date(day=1, month=today.month, year=today.year)
- >>> lastMonth = first - datetime.timedelta(days=1)
- >>> print lastMonth.strftime("%Y%m")
- 201202
- >>>
-
-```
- 
-The asker received six possible answers, and he or she was successful in inciting discussion from multiple users. The answers themselves were clear and were devoid of the rumored sarcasm and hostility of “hackers.” Since I myself have referenced this page and found it useful, I can confidently say that it is a good question.
-
-## The foolproof way to get ignored.
-
-While there are decent questions that benefit everyone, there are those one can ask to create an entirely different effect. In the following example, a user asks how he would, in short, create a desktop application with Facebook.
-
-```
-Q: Facebook Desktop Notifier
-
-I am a beginner programmer that have never used anything other than what's included in a language.
-
-I am trying to create a desktop application that notifies me anytime I get an update onfacebook. 
-How should go about doing this? Thanks in advance.
-
-edit Sorry I was not clear. Is there any way to make a DESKTOP application with facebook?
-```
-
-A simple “yes” would have answered the question, but we know that’s not the sort of answer he or she is looking for. Fortunately, someone kindly responded with a link to Facebook’s developer website. The asker should have done more research on his or her potential project. Then further down the road, he or she could have asked more specific and detailed questions that wouldn’t require a thousand-paged response for a sufficient answer.
+---
 
 ## Conclusion
+Asking smart questions isn’t just about solving your own problem — it also shows professionalism and respect for other developers’ time. Following Raymond’s principles leads to better answers, stronger collaboration, and a better reputation in technical communities.
 
-When we rely on others’ generosity and expertise to provide answers to our questions, it should hold that the question we ask should be one that leads to efficient and effective help that not only benefits us, but also the people we ask and others who might ask the same question in the future. Thus, if you have a question… make it a smart one! Asking questions may not always get you the best answer, but asking them in a way that will make others want to answer them will increase the success of finding a good solution and make it a positive experience on all sides.
