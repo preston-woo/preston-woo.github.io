@@ -22,7 +22,7 @@ I will compare one real smart question and one “not smart” question from Sta
 ## Smart Question Example
 
 **Question:**  
-[Issue with running C/C++ with code runner on vscode](https://stackoverflow.com/questions/XXXXXXXX)
+[Issue with running C/C++ with code runner on vscode](https://stackoverflow.com/questions/79761239/issue-with-running-c-c-with-code-runner-on-vscode)
 
 **Summary:**  
 A developer was having trouble running C and C++ files using Code Runner in Visual Studio Code. They consistently got this error:  
