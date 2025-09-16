@@ -58,7 +58,7 @@ This shows that asking clearly and showing effort encourages others to give high
 - Vague and missing key info (no code, no error message, no environment details)
 - Shows no research or troubleshooting effort
 - Uses a demanding tone (“fix it for me” and “urgent”)
-- Poor grammar and formatting, uses emojis and all caps
+- Poor grammar and formatting, uses emojis and all capital letters
 - Doesn’t state the actual goal or problem
 
 **Responses (hypothetical):**
