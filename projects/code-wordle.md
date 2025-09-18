@@ -11,7 +11,7 @@ labels:
 summary: "Our ECE-296x team implemented the game logic for a Wordle-style game using Python."
 ---
 
-As part of my junior project for ECE-296x, my team developed a digital version of the popular word-guessing game *Wordle*. Our goal was to replicate the gameplay experience by designing and coding the rules and mechanics behind the game.
+During my sophomore year, my team and I developed a digital version of the popular word-guessing game *Wordle*. Our goal was to replicate the gameplay experience by designing and coding the rules and mechanics behind the game.
 
 I spent time implementing the game logic in Python, including checking player guesses against the target word, letter match and color response management, and winning/losing condition checking. I helped with testing the logic of the game to validate that guesses were scoring properly and following the original rules.
 
