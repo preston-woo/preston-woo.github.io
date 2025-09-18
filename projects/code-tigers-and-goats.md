@@ -9,7 +9,7 @@ labels:
   - Game Development
   - Software Engineering
   - Python
-summary: "Our ECE-396x team developed a digital version of the traditional board game Tigers and Goats."
+summary: "Helped create a playable digital version of the classic board game Tigers and Goats (Huli Gutta) with turn-based movement and capture mechanics built in Python."
 ---
 
 
