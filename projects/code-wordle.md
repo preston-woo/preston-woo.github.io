@@ -8,7 +8,7 @@ labels:
   - Game Development
   - Software Engineering
   - Python
-summary: "Our ECE-296x team implemented the game logic for a Wordle-style game using Python."
+summary: "A digital version of the traditional board game Tigers and Goats (Huli Gutta) built in Python."
 ---
 
 During my sophomore year, my team and I developed a digital version of the popular word-guessing game *Wordle*. Our goal was to replicate the gameplay experience by designing and coding the rules and mechanics behind the game.
