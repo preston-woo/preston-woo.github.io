@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: Tigers_and_Goats.png
+image: img/Tigers-and-Goats.png
 title: "Coding tigers and Goats"
 date: 2023
 published: true
