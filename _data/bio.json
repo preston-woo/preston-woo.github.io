@@ -19,5 +19,25 @@
     { "name": "Reinforcement Learning" },
     { "name": "Game Development" }
   ]
+  "skills": [
+  {
+    "name": "Languages and Frameworks",
+    "keywords": [ "C", "C++", "JavaScript", "Python" ]
+  },
+  {
+    "name": "Toolsets/OS",
+    "keywords": [ "MacOS", "Git/GitHub" ]
+  }
+],
+"education": [
+  {
+    "institution": "University of Hawaii, Honolulu, HI",
+    "area": "Computer Engineering",
+    "studyType": "B.S.",
+    "startDate": "2020-08-24",
+    "endDate": "Fall 2025"
+  }
+]
+
 }
   
