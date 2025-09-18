@@ -8,7 +8,7 @@ labels:
   - Game Development
   - Software Engineering
   - Python
-summary: "A digital version of the game Wordle built in Python."
+summary: "A Python-based version of the word-guessing game Wordle that checks player guesses, returns color feedback, and tracks win/loss outcomes."
 ---
 
 During my sophomore year, my team and I developed a digital version of the popular word-guessing game *Wordle*. Our goal was to replicate the gameplay experience by designing and coding the rules and mechanics behind the game.
