@@ -2,7 +2,7 @@
 layout: essay
 type: essay
 title: "Reflecting on My Experience with TypeScript"
-date: 2025-09-17
+date: 2025-09-03
 published: true
 labels:
   - TypeScript
