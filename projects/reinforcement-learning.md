@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/rl-huligutta/rl-huligutta-square.jpg
+image: img/AI.png
 title: "Reinforcement Learning for Tigers and Goats"
 date: 2025
 labels:
