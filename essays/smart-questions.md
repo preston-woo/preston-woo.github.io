@@ -80,3 +80,4 @@ As a future software engineer, the way I ask a question can determine whether I 
 ## Conclusion
 Asking smart questions isn’t just about solving your own problem — it also shows professionalism and respect for other developers’ time. Following Raymond’s principles leads to better answers, stronger collaboration, and a better reputation in technical communities.
 
+Used ChatGPT for grammar and to generate a "not smart" question 
