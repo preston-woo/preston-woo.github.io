@@ -8,7 +8,7 @@ labels:
   - Reinforcement Learning
   - Game AI
   - Python
-summary: "Our EE-496x team used reinforcement learning to teach an agent to play Tigers and Goats (HuliGutta)."
+summary: "A reinforcement learning project where an AI agent was trained to play Tigers and Goats using value iteration and look-ahead strategies in Python."
 ---
 
 As part of my capstone project, my team explored reinforcement learning (RL) to teach an agent to play the board game *Tigers and Goats (HuliGutta)*. This game’s asymmetric rules and strategic depth made it a good testbed for developing adaptive strategies. We focused on implementing and comparing different RL algorithms, such as value iteration and a 2-step look-ahead approach, to help the agent evaluate board states and plan moves effectively.
