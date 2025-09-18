@@ -31,7 +31,4 @@ A huge benefit of TypeScript I hadn’t thought of until recently was how it imp
 
 ---
 
-**AI Used:** ChatGPT (for formatting and grammar guidance only, not content)
-
-
-**AI Used:** ChatGPT (for formatting guidance only, not for content)
+Used ChatGPT for formatting and grammar
