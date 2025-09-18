@@ -34,5 +34,6 @@ Maybe the largest lesson in using TypeScript is how much cleaner it makes code f
 TypeScript has shifted my focus from just getting the code to work to coding that's maintainable and clean. It's extra effort up front, but it builds habits that will be worth it later during interviews, internships, and future projects. After this class, I hope to feel more confident and ready for bigger programming challenges.
 
 ---
+ChatGPT used for grammar and formatting
 
 **AI Used:** ChatGPT (for formatting and grammar guidance only, not content)
