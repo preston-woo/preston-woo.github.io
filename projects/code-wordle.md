@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/wordle/wordle-square.jpg
+image: img/Wordle.png
 title: "Wordle Game Logic"
 date: 2022
 labels:
