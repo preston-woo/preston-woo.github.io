@@ -26,12 +26,12 @@ At first glance, coding standards seem to slow things down. They add more work u
 ---
 
 ## When to Add Standards
-I don’t think newcomers should be expected to learn coding standards immediately. Learning the basics of programming is already challenging, and enforcing strict formatting rules too early can be overwhelming. Instead, I believe coding standards are most useful after a programmer has some background. Once you understand variables, functions, and loops, adding standards makes your code stronger and more professional. This balance helps beginners avoid frustration while still preparing them for the expectations of real-world software development.
+I don’t think newcomers should be expected to learn coding standards immediately. Learning the basics of programming is already challenging, and enforcing strict formatting rules too early can be overwhelming. Instead, I believe coding standards are most useful after a programmer has some background. Once you understand variables, functions, and loops, you can start adding standards to make your code stronger and more professional. This balance helps beginners avoid frustration while still preparing them for the expectations of real-world software development.
 
 ---
 
 ## Reflection
-What once frustrated me became a valuable learning experience. ESLint has shown me that the little things matter—not just to satisfy a linter, but because those details bring clarity, and clarity leads to better, more maintainable code. Coding standards may not be exciting, but they are a habit worth building. Just as static typing prevents subtle bugs, coding standards prevent messy codebases. With practice, I’ve come to see ESLint not as a burden but as a tool that will make me a stronger programmer in school, internships, and eventually, in professional software engineering roles.
+What once frustrated me became a valuable learning experience. ESLint has shown me that the little things matter—not just to satisfy a linter, but because those details bring clarity, and clarity leads to better, more maintainable code. Coding standards may not be exciting, but they're a habit worth building. Just as static typing prevents subtle bugs, coding standards prevent messy codebases. With practice, I’ve come to see ESLint not as a burden but as a tool that will make me a stronger programmer in school, internships, and eventually, in professional software engineering roles.
 
 ---
 
