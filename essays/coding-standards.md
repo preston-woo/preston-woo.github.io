@@ -10,6 +10,8 @@ labels:
   - Software Engineering
 ---
 
+![ESLint Logo](/images/Eslint.Logo.png){: style="float:right; width:200px;" }
+
 ## Introduction
 When I first used ESLint in VSCode, I received a flood of error messages. It was frustrating, especially because I wasn’t always sure how to fix them. At first, it reminded me of TypeScript, but even more strict. Most of my errors were spacing and naming conventions, and at the time, it felt like extra work on top of stressful, timed assignments. Over time, however, I came to see that coding standards serve the same purpose as static typing: catching issues early, improving readability, and making debugging easier.
 
