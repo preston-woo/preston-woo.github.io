@@ -11,7 +11,7 @@ labels:
 ---
 
 ## Introduction
-Bootstrap 5 was a big step up from writing CSS from scratch when I started using it. I could rely on pre-written classes, which saved hours of time dealing with responsiveness, alignment, and spacing. I could quickly build layouts, copy and paste the relevant portions from the documentation, and modify the code to suit my needs. Using Bootstrap made web design feel more like assembling aligned, modular building blocks instead of struggling against the layout system.
+Bootstrap 5 was a big step up from writing CSS in terms of efficiency. I could rely on pre-written classes, which saved hours of time dealing with responsiveness, alignment, and spacing. I could quickly build layouts, copy and paste the relevant portions from the documentation, and modify the code to suit my needs. Using Bootstrap made web design feel more like assembling aligned, modular building blocks instead of struggling against the layout system.
 
 ---
 
@@ -50,7 +50,7 @@ I definitely plan to keep using UI frameworks like Bootstrap for future projects
 
 However, I also want to keep practicing with plain HTML and CSS to strengthen my foundation. Knowing how to construct layouts from scratch will help me avoid becoming too dependent on frameworks for responsive design and functionality. The difference is clear when comparing my plain HTML site to my Bootstrap project — the Bootstrap layouts look cleaner, more organized, and automatically responsive.  
 
-UI frameworks aren’t shortcuts. They’re a way to write code smarter, faster, and more consistently. Learning Bootstrap has shown me that structure and simplicity can go hand in hand.
+I don't see UI frameworks as simple shortcuts. They’re a way to write code smarter, faster, and more consistently. Learning Bootstrap has shown me that structure and simplicity can go hand in hand.
 
 ---
 
