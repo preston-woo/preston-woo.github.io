@@ -71,7 +71,7 @@ Admins will be able to add official UH routes, flag unsafe ones, and organize we
 
 ---
 
-## Mockup Concepts (Text Description)
+## Mockup Concepts
 
 - **Home Page**: Today’s weather alert, quick route suggestions, upcoming group run  
 - **Route Explorer**: Map with UH-popular running loops (Campus, Ala Moana, Manoa Valley, Waikiki)  
