@@ -1,182 +1,151 @@
-# Reflecting on My Use of AI in ICS 314
+---
+layout: essay
+type: essay
+title: "Reflecting on My Use of AI in ICS 314"
+date: 2025-12-15
+published: true
+labels:
+  - AI
+  - Software Engineering
+  - ICS 314
+  - Reflection
+---
 
 ## I. Introduction
 
-Artificial Intelligence has become increasingly present in educational environments, particularly in technical fields such as software engineering. In ICS 314, AI tools served not as replacements for learning, but as supplemental resources that could assist with understanding concepts, debugging code, and reflecting on design decisions. Throughout the course, I primarily used ChatGPT as an AI tool, and to a much lesser extent GitHub Copilot. These tools influenced how I approached learning, problem-solving, and reflection in software engineering, while also revealing clear limitations that required careful judgment and discipline.
+Artificial Intelligence (AI) has become an increasingly common tool in education, especially in technical fields like software engineering. In ICS 314, AI tools were not required, but they were available as optional resources to help with learning, debugging, and understanding complex concepts. Throughout the course, I primarily used **ChatGPT** as my AI tool. While tools like GitHub Copilot and Bard exist, ChatGPT was the one I consistently relied on.
 
-This essay reflects on my personal experiences using AI in ICS 314, analyzing when it was helpful, when it was not, and how it affected my understanding of software engineering principles.
+I did not use AI to complete assignments for me, but instead treated it as a learning assistant. I used it to clarify concepts, explain error messages, and suggest possible approaches when I felt stuck. This essay reflects on how AI influenced my learning experience in ICS 314, including when it was helpful, when it was not, and how it affected my understanding of software engineering principles.
 
 ---
 
 ## II. Personal Experience with AI
 
-Below, I reflect on my use (or non-use) of AI for each major course element in ICS 314, including specific examples and prompts.
+Below, I describe my experience using AI across different course elements.
 
 ### 1. Experience WODs (e.g., E18)
 
-For Experience WODs, I occasionally used ChatGPT to clarify instructions or confirm my understanding of what was being asked. For example, during a functional programming WOD, I asked:
+For Experience WODs, I occasionally used ChatGPT when I struggled to understand how to start. For example, during a functional programming WOD, I asked:
 
-> “Explain what this ICS 314 WOD is asking me to do in plain English.”
+> “Write a JavaScript function using underscore.js to implement the following instructions.”
 
-This was useful for orientation, but I avoided asking AI to generate full solutions. While AI could produce code quickly, I found that relying on it too much reduced the learning value of the WODs, which are meant to build fluency under time pressure.
-
-**Benefit:** Helped clarify confusing instructions  
-**Cost:** Risk of skipping conceptual understanding if overused
-
----
+ChatGPT helped me understand the general structure of a solution, but the output was often not directly usable. I still had to modify the logic to meet the exact WOD requirements. AI was useful as a starting point, but not as a final solution.
 
 ### 2. In-class Practice WODs
 
-I generally did not use AI during in-class practice WODs. These sessions were designed to simulate real-time problem-solving, and using AI would have defeated their purpose. I found it more valuable to struggle briefly and then ask peers or the instructor questions.
-
-When I tried using AI afterward to reflect, I found it more useful as a post-mortem tool rather than a live assistant.
-
----
+I generally did not use AI for in-class Practice WODs. Since these were meant for learning during class time, I felt it was more beneficial to work through the problems myself or with classmates rather than relying on AI.
 
 ### 3. In-class WODs
 
-I did not use AI during graded in-class WODs. These assessments tested my personal mastery of concepts, and using AI would not have accurately reflected my skill level. Additionally, relying on AI in that context would have undermined the integrity of the assessment.
-
----
+For in-class WODs, I avoided using AI altogether. The time constraints and live environment made it more effective to rely on my own understanding and preparation.
 
 ### 4. Essays
 
-AI was most useful during essay writing. I used ChatGPT primarily as a **structuring and revision tool**, not as a content generator. For example, I asked:
+I used AI for brainstorming and organizing ideas, but not for writing the essays themselves. For example, I asked:
 
-> “Can you help reorganize this reflection so it aligns better with the ICS 314 rubric?”
+> “Help me create an outline for an effort estimation essay.”
 
-This helped improve clarity, flow, and alignment with expectations, while the ideas and experiences remained my own.
-
-**Benefit:** Improved organization and clarity  
-**Cost:** Required careful editing to maintain my own voice
-
----
+I then wrote the essay in my own words. AI helped structure my thoughts, but the final content was my own.
 
 ### 5. Final Project
 
-For the final project, AI was useful in small, targeted ways. I asked questions such as:
+AI was most useful during the final project. I used ChatGPT to help interpret Prisma errors, understand database migrations, and clarify Next.js behavior. A common prompt I used was:
 
-> “Explain why this Prisma migration error might occur.”
+> “What does this Prisma error mean, and what is a safe way to fix it?”
 
-or
-
-> “What does this ESLint error mean in a Next.js project?”
-
-AI helped me interpret error messages faster, but it rarely provided a complete solution that worked without modification. The final design decisions still required understanding the system as a whole.
-
----
+This saved time and helped reduce confusion, but I still verified all suggestions carefully to avoid breaking the database.
 
 ### 6. Learning a Concept / Tutorial
 
-When learning new tools such as Prisma or Next.js routing, I used AI to supplement official documentation:
+When learning tools such as Prisma, NextAuth, and GitHub Actions, AI was helpful for high-level explanations. For example:
 
-> “Explain Prisma schema relationships with a simple example.”
+> “Explain Prisma migrations in simple terms.”
 
-This was helpful for building intuition, but I still relied on documentation for accuracy and edge cases.
+This helped me understand why certain commands were risky instead of just memorizing them.
 
----
+### 7. Answering a Question in Class or Discord
 
-### 7. Answering a Question in Class or on Discord
-
-I did not use AI to answer questions live in class or on Discord. These moments required real-time reasoning and discussion, and AI responses would not have been appropriate or timely. I preferred to reason through questions myself before contributing.
-
----
+I did not use AI to answer questions in class or on Discord. I wanted my responses to reflect my own understanding rather than something generated by AI.
 
 ### 8. Asking or Answering a Smart Question
 
-AI helped me refine questions before asking them. For example:
+AI helped me phrase better questions. For example, I asked:
 
-> “Help me turn this vague confusion into a clear technical question.”
+> “How should I ask a question about database drift in Prisma?”
 
-This improved the quality of my questions and made discussions more productive.
-
----
+This helped me communicate more clearly with my teammates and TA.
 
 ### 9. Coding Example (e.g., Underscore `.pluck`)
 
-For functional programming tasks, I asked:
+I used AI to refresh my memory on syntax:
 
-> “Give an example of using underscore .pluck on an array of objects.”
+> “Give an example of using underscore.js pluck.”
 
-This provided a quick reference example, which I then adapted to the specific WOD requirements.
-
-**Benefit:** Faster recall of syntax  
-**Cost:** Example code often needed modification
-
----
+This was helpful for reference, but I still applied it manually in my own code.
 
 ### 10. Explaining Code
 
-I frequently used AI to explain unfamiliar code:
+ChatGPT was useful for explaining unfamiliar starter code. For example:
 
-> “Explain what this function is doing line by line.”
+> “Explain what this React component does line by line.”
 
-This was especially helpful when reading starter code or legacy examples.
-
----
+This helped me understand the intent of the code before modifying it.
 
 ### 11. Writing Code
 
-I avoided asking AI to write full solutions. When I did experiment with generated code, it often required significant debugging and did not match course conventions. Writing code myself led to better retention and confidence.
-
----
+I avoided having AI write full files. When I tried, the code often did not match the project structure. Instead, I used AI to understand logic or small snippets.
 
 ### 12. Documenting Code
 
-AI was helpful for improving documentation clarity:
+AI helped reword comments and documentation for clarity. For example:
 
-> “Rewrite this comment to be clearer and more concise.”
-
-This improved readability without altering technical content.
-
----
+> “Rewrite this comment to be clearer for future developers.”
 
 ### 13. Quality Assurance
 
-One of the most useful applications was debugging:
+This was one of the most useful uses of AI. I often asked:
 
-> “What’s wrong with this code? Here is the ESLint error.”
+> “What’s wrong with this code?”  
+> “Fix the ESLint errors in this file.”
 
-AI helped identify common mistakes quickly, though it sometimes suggested fixes that conflicted with project constraints.
-
----
+AI frequently identified formatting issues and unused variables, which saved time.
 
 ### 14. Other Uses in ICS 314
 
-AI was also useful for reflection and self-assessment, such as reviewing whether a README met assignment expectations or checking consistency across files.
+I also used AI to clarify assignment instructions and rubric expectations, especially during Milestone 3.
 
 ---
 
 ## III. Impact on Learning and Understanding
 
-AI enhanced my learning when used as a **support tool**, not a shortcut. It improved comprehension of errors and unfamiliar concepts, but over-reliance reduced deep understanding. The most meaningful learning occurred when AI supported my reasoning rather than replaced it.
+AI improved my learning experience by helping me recover quickly when I was stuck. However, it did not replace the need to understand concepts. In some cases, incorrect or incomplete AI responses forced me to think more critically and verify information on my own.
 
 ---
 
-## IV. Practical Applications Outside ICS 314
+## IV. Practical Applications
 
-Outside the course, I have used AI for other academic projects and debugging tasks. Similar patterns emerged: AI was effective for explanation and troubleshooting but less reliable for complete solutions. These experiences reinforced disciplined use.
+Outside of ICS 314, I have used AI to help debug code and learn concepts in other computer engineering courses. These experiences reinforced the idea that AI is best used as a support tool rather than a replacement for understanding.
 
 ---
 
 ## V. Challenges and Opportunities
 
-A major challenge was knowing when *not* to use AI. It is tempting to ask for full solutions, but doing so often slowed learning long-term. An opportunity exists to formally teach students how to use AI responsibly as a professional tool.
+The biggest challenge with AI is trusting it too much. Some answers were confidently wrong. A major opportunity is teaching students how to evaluate AI output critically, which is an important real-world skill.
 
 ---
 
 ## VI. Comparative Analysis
 
-Compared to traditional methods, AI-enhanced learning increased efficiency and accessibility of explanations. However, traditional approaches were more effective for skill development and long-term retention when AI was restricted or guided.
+Compared to traditional teaching methods, AI-enhanced learning is faster and more flexible. However, traditional methods are better for deep understanding. The most effective approach is a balance of both.
 
 ---
 
 ## VII. Future Considerations
 
-AI will likely become a standard tool in software engineering education. Future courses could benefit from explicit guidelines on ethical and effective AI use, focusing on collaboration rather than dependency.
+AI will likely play a larger role in software engineering education. Future courses could include guidance on safe AI usage, ethical considerations, and verification strategies.
 
 ---
 
 ## VIII. Conclusion
 
-AI played a meaningful but limited role in my ICS 314 experience. When used thoughtfully, it improved clarity, efficiency, and reflection. When overused, it reduced learning value. Overall, AI is best integrated as a supportive tool that enhances, rather than replaces, the core learning objectives of software engineering education.
+Using AI in ICS 314 helped me learn more efficiently, especially during the final project. While AI was not always correct, it helped me ask better questions and understand systems more deeply. When used responsibly, AI can be a powerful learning tool in software engineering education.
