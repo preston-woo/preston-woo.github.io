@@ -1,12 +1,15 @@
 ---
 layout: project
+type: project
+image: img/run-route-hub-landing.png
 title: "Run-and-Route Hub"
-date: 2025-12-20
-image: ../img/run-route-hub-landing.png   # header image shown next to the title
+date: 2024
+published: true
 labels:
   - Software Engineering
   - Web Development
   - Next.js
+summary: "A UH Mānoa fitness app for logging runs, finding running partners, and tracking awards."
 ---
 
 ## Project Overview
