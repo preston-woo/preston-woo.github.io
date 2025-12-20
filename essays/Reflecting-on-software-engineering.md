@@ -6,62 +6,52 @@ date: 2025-12-19
 published: true
 labels:
   - Software Engineering
-  - ICS 314
   - Reflection
+  - ICS 314
 ---
 
+# Reflection on Software Engineering
+
 ## Introduction
-
-When I first started ICS 314, I thought the class was mainly about learning React and building a website. But as the semester went on, I realized the class was really about learning how software engineering actually works in real life. A lot of the things we did—GitHub, issues, coding standards, project planning—ended up being more important than the actual code itself.
-
-This reflection is about the main skills I learned and how I see myself using them in the future.
+When I first started ICS 314, I assumed the class was mostly about learning React and making a website. But as the semester went on, I realized it was really about understanding how software engineering works in real teams. A lot of what we did—GitHub workflows, issues, coding standards, planning, and organizing tasks—ended up being just as important as the code itself.  
+This reflection summarizes the main skills I learned and how I see myself using them in the future.
 
 ## Open Source Software Development
-
-Before this class, I used GitHub mostly just to upload files. In ICS 314, I finally learned how a team really uses GitHub. We had to create issues, make branches, open pull requests, review each other’s changes, and merge them the right way. It made me realize that writing code is only part of the job. Keeping everything organized matters just as much.
-
-This is something I know I’ll use again, because almost every job or project uses some kind of version control system.
+Before this class, I treated GitHub like a place to upload files. In ICS 314, I finally learned how a real team uses GitHub. We had to create issues, make branches, open pull requests, review code, and merge things the right way. It showed me that software engineering is not only about writing code—it’s about keeping the project organized so everyone can work together smoothly.  
+This is something I know I’ll use again, because almost every job relies on version control.
 
 ## Agile Project Management & IDPM
-
-Using Issue Driven Project Management (IDPM) was one of the biggest things I learned. Before this class, I never broke work into small tasks. I would just code until things worked.
+Issue Driven Project Management (IDPM) was one of the biggest things I learned. Before this, I never broke work into small tasks. I would just code until things worked.
 
 In this class, every task had:
+
 - an issue  
 - a branch  
 - a pull request  
 - a place on the project board  
 
-It made our group project easier to manage and helped us stay on the same page. I can see how this would be really useful for any future team project, even outside of software.
+This structure made our group project easier to manage and kept everyone on track. I can see how IDPM would help in almost any team environment, even outside of software.
 
 ## Functional Programming
-
-Functional programming was new to me. Learning how to use functions like map, filter, and reduce helped me write cleaner and shorter code. At first it felt confusing, but after doing the WODs, it started making sense. I realized FP shows up in a lot of other languages too, so this is something I’ll probably use again.
+Functional programming was new to me. Learning how to use functions like `map`, `filter`, and `reduce` helped me write cleaner and shorter code. At first, it felt confusing, but after the WODs, I started getting used to it. I also realized these ideas show up in a lot of languages, so this was a useful skill to learn.
 
 ## Coding Standards
-
-ESLint annoyed me at the start, but it ended up being helpful. Having a consistent style made our code easier to read and understand. It also caught a lot of mistakes before they became actual bugs.
-
-Now that I’m used to it, I can see why companies care about coding standards. Clean code really does make a difference when multiple people are working on the same project.
+At first, ESLint felt annoying, but I eventually saw why it mattered. Having a consistent coding style made our project easier to read and debug. ESLint also caught mistakes early before they caused real bugs.  
+Now that I’m used to it, the idea of coding standards makes a lot more sense, especially on group projects.
 
 ## User Interface Frameworks
-
-I had never used a UI framework before this class. Learning Semantic UI React helped me understand how to build interfaces faster instead of writing CSS from scratch. It also taught me how to make pages look cleaner and more consistent.
+I had never used a UI framework before. Learning Semantic UI React helped me build pages faster without writing every piece of CSS from scratch. It also made it easier to design cleaner, more consistent interfaces.
 
 ## Development Environments
-
-Setting up the development environment taught me how to work with modern tools like Next.js, Prisma, GitHub, npm, and VS Code. It made me more confident about starting new projects from scratch, which is something I couldn’t really do before.
+Setting up the development environment taught me how to work with modern tools like Next.js, Prisma, npm, GitHub, and VS Code. Before this class, starting a new project felt intimidating. Now I feel more comfortable setting things up on my own.
 
 ## Design Patterns
-
-We didn’t go super deep into design patterns, but I learned the basics of why they matter. I could see examples of patterns in the layout of our project and in how components were structured. It helped me understand how to organize code better.
+We didn’t go super deep into design patterns, but I learned why they matter. I started noticing patterns in our group project and in how components were organized. It helped me understand how to structure code in a cleaner and more reusable way.
 
 ## Ethics in Software Engineering
-
-The ethics module reminded me that software affects real people. It made me think about responsibility—especially with privacy, accuracy, and fairness. It’s easy to forget this when you’re just coding, so I’m glad the class included it.
+The ethics talk was an important reminder that software affects real people. It made me think about responsibility—especially when it comes to privacy, accuracy, and fairness. It was good to step back and realize that what we build has a real impact on the world.
 
 ## Conclusion
+ICS 314 taught me much more than how to build a website. It taught me how to plan work, organize a project, write cleaner code, and collaborate in a more professional way. These are skills I’ll use in future classes, internships, and real software projects.  
+Even though the class was challenging, I feel like it gave me a strong foundation for understanding how software engineering actually works.
 
-ICS 314 taught me way more than just how to build a website. I learned how to plan work, organize a project, write cleaner code, and work with a team in a more professional way. These are skills I’ll use in future classes, internships, and real software projects.
-
-Even though the class was challenging, I feel like it gave me a solid foundation for how software engineering actually works.
