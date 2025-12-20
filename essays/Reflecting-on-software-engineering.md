@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Reflection on Software Engineering"
+title: "More Than Just Code: Lessons I Learned in Software Engineering"
 date: 2025-12-19
 published: true
 labels:
