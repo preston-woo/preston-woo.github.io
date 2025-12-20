@@ -1,37 +1,40 @@
 ---
 layout: essay
 type: essay
-title: "Improving My Approach to Programming"
-date: 2025-09-17
+title: "Seeing Design Patterns in Action in Our Project"
+date: 2025-12-03
 published: true
 labels:
-  - TypeScript
   - Software Engineering
-  - Reflection
+  - Design Patterns
+  - ICS 314
 ---
 
-## Rethinking How I Code
-I was accustomed to coding in Python and C beforehand. Those languages allowed me to code quickly without worrying about structure. TypeScript has forced me to slow down and get through my thinking first before typing. Instead of attempting to get something to immediately work, now I take a step back and think about how I’m going to design my code in a way that is readable and reusable. This change has helped me improve my coding habits.
+## Introduction
+When our group started building the Run-and-Route Hub app, I wasn’t thinking about design patterns at all. I just wanted the website to work and for all the features to come together. But after finishing the project, I realized that we were actually using several common design patterns without even noticing. These patterns showed up naturally because of the tools we used, like Next.js, React, and Prisma. Understanding them now helps me see why our project was structured the way it was and how these patterns made the code more organized and easier to work with.
 
----
+## MVC in Our Project
+One pattern we followed without realizing it was Model–View–Controller (MVC). The data is the model, the logic that handles requests is the controller, and the user interface is the view.
 
-## Learning to Plan Before I Code
-At first, JavaScript was similar to C in the sense that you declare functions and classes in a certain way. TypeScript extends that by making you declare what functions your variables and functions perform before you can utilize them. It also introduces functional programming constructs that make me write small, usable functions that each do one thing. This has forced me to think more about how different components of a program fit together, not so much about how to make them run without crashing.
+In our app:
+- **Model:** Prisma schemas  
+- **Controller:** Next.js API routes  
+- **View:** React pages  
 
----
+We didn’t plan to use MVC, but this structure appeared naturally, and it helped keep the data, logic, and UI separated.
 
-## Handling Pressure with WODs
-The timed WODs were a big adjustment from how I otherwise work. In the past, I built projects like Wordle and Tigers-and-Goats in my spare time using Python. With WODs, I have to take my ideas and put them into code as quickly and neatly as possible. They’ve trained me to stick to a plan, even under stress. That ability will come in handy when performing coding interviews, where quickly describing your reasoning is just as important as figuring out the solution.
+## Singleton with Prisma
+We also used the Singleton Pattern through the Prisma client. Instead of creating multiple database connections, we used one shared instance across the whole application. At the time, it just felt like the normal Prisma setup, but it prevented connection issues and made our app more stable. Learning that this is a design pattern made me understand why it's recommended.
 
----
+## React Components as Factories
+React components also represent the Factory Pattern. Components act like templates that generate UI elements whenever needed. For example, `<RunCard />` and `<FilterSection />` allowed us to create consistent pieces of UI without rewriting the same structure. This made our code more reusable and easier to maintain.
 
-## Writing Code Others Can Understand
-Maybe the largest lesson in using TypeScript is how much cleaner it makes code for others to read. Static typing makes me name function inputs and outputs, which provides future readers with a map of how every piece of code operates. On a big team collaboration where team members arrive late or code accumulates rapidly, that sort of organization can save hours of confusion. It makes hard-to-understand code clean and maintainable.
+## Strategy Through Filtering
+The filtering feature in our app is an example of the Strategy Pattern. Users can filter runs by difficulty, distance, or pace. Each filter represents a different “strategy” for deciding what to show. The backend simply uses whichever strategy the user selects. This pattern made the filtering logic flexible and easy to update.
 
----
+## Observer in React
+React’s state system uses the Observer Pattern. When the user changes something—like selecting a filter option—the UI updates automatically. Components “observe” changes in state and re-render when needed. We used this constantly, and it helped make the app feel responsive without manual updates.
 
-## Looking Ahead as a Developer
-TypeScript has shifted my focus from just getting the code to work to coding that’s maintainable and clean. It’s extra effort up front, but it builds habits that will be worth it later during interviews, internships, and future projects. After this class, I hope to feel more confident and ready for bigger programming challenges.
+## Reflection
+Even though our team didn’t think about design patterns while building Run-and-Route Hub, they were there the whole time. MVC organized our structure, the Singleton Pattern kept Prisma stable, the Factory Pattern helped us reuse UI components, the Strategy Pattern shaped our filtering system, and the Observer Pattern kept the interface reactive. Understanding these patterns now helps me see how our project worked behind the scenes and gives me tools I can use in future software development.
 
----
-ChatGPT used for grammar and formatting
