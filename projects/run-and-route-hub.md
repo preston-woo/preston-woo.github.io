@@ -11,6 +11,8 @@ labels:
   - Next.js
 ---
 
+<br><br>
+
 ## Project Overview
 
 Run-and-Route Hub is a web application built to help University of Hawaiʻi at Mānoa students find running partners, log their runs, and stay motivated with small awards and milestones. Students can add details about their runs, search for runs created by others, and see simple awards based on their activity.
@@ -48,6 +50,8 @@ Overall, I learned how important communication, planning, and clear code organiz
 
 View our GitHub organization repository here:  
 https://github.com/ORG-NAME/run-and-route-hub
+
+<br><br>
 
 ---
 
