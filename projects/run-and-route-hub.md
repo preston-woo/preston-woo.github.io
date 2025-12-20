@@ -54,7 +54,8 @@ Overall, I learned how important communication, planning, and clear code organiz
 ## Source Code
 
 View our GitHub organization repository here:  
-https://github.com/ORG-NAME/run-and-route-hub
+[https://github.com/ORG-NAME/run-and-route-hub](https://github.com/run-and-route-hub)
+This repository contains the full source code, issue history, and project documentation.
 
 <br><br>
 
