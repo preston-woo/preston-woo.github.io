@@ -14,6 +14,7 @@ summary: "A UH Mānoa fitness app for logging runs, finding running partners, an
 
 ## Project Overview
 
+
 Run-and-Route Hub is a web application built to help University of Hawaiʻi at Mānoa students find running partners, log their runs, and stay motivated with small awards and milestones. Students can add details about their runs, search for runs created by others, and see simple awards based on their activity.
 
 The application was built using Next.js, React, Prisma, and PostgreSQL, with deployment handled through Vercel. Our goal was to take the software engineering ideas from ICS 314 and use them in a real, team-based project that felt like a “real” app instead of just a homework assignment.
