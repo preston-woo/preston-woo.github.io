@@ -9,7 +9,7 @@ labels:
   - Software Engineering
   - Web Development
   - Next.js
-Summary: "A web application that helps UH Mānoa students log their runs, find running partners, and explore community-shared routes using a clean and modern Next.js interface."
+summary: "A web application that helps UH Mānoa students log their runs, find running partners, and explore community-shared routes using a clean and modern Next.js interface."
 ---
 
 <p align="center">
