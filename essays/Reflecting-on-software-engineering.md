@@ -1,60 +1,67 @@
 ---
 layout: essay
 type: essay
-title: "Reflecting on Software Engineering"
+title: "Reflection on Software Engineering"
 date: 2025-12-19
 published: true
 labels:
   - Software Engineering
-  - Configuration Management
-  - Coding Standards
-  - Agile Project Management
+  - ICS 314
+  - Reflection
 ---
 
 ## Introduction
 
-Coming into ICS 314, I honestly thought the class was mainly about web development. We spent a lot of time using React, Next.js, and Prisma, so it was easy to think the goal was just to build a working app. But as the semester went on, I realized the main point of this class was to learn the fundamentals of software engineering and how real development teams work.
+When I first started ICS 314, I thought the class was mainly about learning React and building a website. But as the semester went on, I realized the class was really about learning how software engineering actually works in real life. A lot of the things we did—GitHub, issues, coding standards, project planning—ended up being more important than the actual code itself.
 
-The topics that stood out the most to me were **Configuration Management**, **Coding Standards**, and **Agile Project Management (Issue Driven Project Management)**. These concepts go way beyond building a website and are things I know I’ll use in future projects.
+This reflection is about the main skills I learned and how I see myself using them in the future.
 
-## Configuration Management
+## Open Source Software Development
 
-Configuration Management is basically about controlling versions and changes so the project stays organized and reliable. Before this class, I didn’t fully understand how important it was.
+Before this class, I used GitHub mostly just to upload files. In ICS 314, I finally learned how a team really uses GitHub. We had to create issues, make branches, open pull requests, review each other’s changes, and merge them the right way. It made me realize that writing code is only part of the job. Keeping everything organized matters just as much.
 
-Through our project, I learned how valuable it is to:
-- Use branches for each issue  
-- Create pull requests to merge changes  
-- Keep deployment connected so updates are smooth  
-- Make sure the whole team is working on the same version of the system  
+This is something I know I’ll use again, because almost every job or project uses some kind of version control system.
 
-These practices made our workflow predictable and avoided major conflicts. I definitely see myself using this in future team projects or internships.
+## Agile Project Management & IDPM
+
+Using Issue Driven Project Management (IDPM) was one of the biggest things I learned. Before this class, I never broke work into small tasks. I would just code until things worked.
+
+In this class, every task had:
+- an issue  
+- a branch  
+- a pull request  
+- a place on the project board  
+
+It made our group project easier to manage and helped us stay on the same page. I can see how this would be really useful for any future team project, even outside of software.
+
+## Functional Programming
+
+Functional programming was new to me. Learning how to use functions like map, filter, and reduce helped me write cleaner and shorter code. At first it felt confusing, but after doing the WODs, it started making sense. I realized FP shows up in a lot of other languages too, so this is something I’ll probably use again.
 
 ## Coding Standards
 
-Coding standards became a big part of the class, especially with ESLint. At first, it just felt strict, but over time I realized it made our code cleaner and easier to understand.
+ESLint annoyed me at the start, but it ended up being helpful. Having a consistent style made our code easier to read and understand. It also caught a lot of mistakes before they became actual bugs.
 
-Some things I learned:
-- Consistent formatting matters  
-- Clear naming makes debugging easier  
-- ESLint helps prevent small mistakes  
-- Clean code is easier for teammates to maintain  
+Now that I’m used to it, I can see why companies care about coding standards. Clean code really does make a difference when multiple people are working on the same project.
 
-These ideas apply to any programming language, not just JavaScript. I can see how important coding standards are for any professional codebase.
+## User Interface Frameworks
 
-## Agile Project Management (IDPM)
+I had never used a UI framework before this class. Learning Semantic UI React helped me understand how to build interfaces faster instead of writing CSS from scratch. It also taught me how to make pages look cleaner and more consistent.
 
-Issue Driven Project Management (IDPM) was one of the most useful things I learned. Before ICS 314, I didn’t really use GitHub Issues or Projects in a meaningful way. But IDPM gave me a clear structure for how to manage tasks.
+## Development Environments
 
-Using IDPM involved:
-- Creating GitHub Issues  
-- Assigning each issue to a branch  
-- Submitting a pull request for every task  
-- Moving issues across the project board  
+Setting up the development environment taught me how to work with modern tools like Next.js, Prisma, GitHub, npm, and VS Code. It made me more confident about starting new projects from scratch, which is something I couldn’t really do before.
 
-This workflow made the final project feel like a real software development process. It helped keep the team organized and made progress easy to track.
+## Design Patterns
+
+We didn’t go super deep into design patterns, but I learned the basics of why they matter. I could see examples of patterns in the layout of our project and in how components were structured. It helped me understand how to organize code better.
+
+## Ethics in Software Engineering
+
+The ethics module reminded me that software affects real people. It made me think about responsibility—especially with privacy, accuracy, and fairness. It’s easy to forget this when you’re just coding, so I’m glad the class included it.
 
 ## Conclusion
 
-ICS 314 taught me much more than how to build a web app. I learned the fundamentals of how real software engineering teams work—using configuration management, coding standards, and Agile/IDPM to stay organized and consistent.
+ICS 314 taught me way more than just how to build a website. I learned how to plan work, organize a project, write cleaner code, and work with a team in a more professional way. These are skills I’ll use in future classes, internships, and real software projects.
 
-Even though the class was challenging at times, I feel more prepared for real projects. The class didn’t just teach me *what* to code—it taught me *how* to approach software development as a whole.
+Even though the class was challenging, I feel like it gave me a solid foundation for how software engineering actually works.
