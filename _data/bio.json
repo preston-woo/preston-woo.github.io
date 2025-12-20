@@ -18,12 +18,12 @@
       {
         "network": "github",
         "username": "preston-woo",
-        "url": "http://github.com/preston-woo"
+        "url": "https://github.com/preston-woo"
       },
       {
         "network": "linkedin",
         "username": "preston-woo",
-        "url": "http://linkedin.com/in/preston-woo"
+        "url": "https://linkedin.com/in/preston-woo"
       }
     ]
   },
@@ -43,23 +43,83 @@
         "C",
         "C++",
         "JavaScript",
+        "TypeScript",
         "Python",
         "React",
         "Next.js",
         "Prisma",
-        "Bootstrap",
-        "Semantic UI"
+        "SQL",
+        "HTML/CSS",
+        "Bootstrap"
       ]
     },
     {
-      "name": "Toolsets / Platforms",
+      "name": "Tools and Platforms",
       "keywords": [
         "Git",
         "GitHub",
         "VS Code",
         "Node.js",
+        "npm",
         "Vercel",
         "macOS"
+      ]
+    },
+    {
+      "name": "Technical Experience",
+      "keywords": [
+        "Full-Stack Web Development",
+        "UI/UX Design",
+        "Database Schema Design",
+        "Prisma Migrations",
+        "Agile Development",
+        "Issue-Driven Project Management (IDPM)",
+        "Technical Documentation"
+      ]
+    }
+  ],
+
+  "work": [
+    {
+      "company": "ICS 314 – Software Engineering Project",
+      "position": "Developer",
+      "website": "",
+      "startDate": "2025-09",
+      "endDate": "2025-12",
+      "summary": "Worked in a team to develop the full-stack web application Run-and-Route Hub using Next.js, React, Prisma, and PostgreSQL.",
+      "highlights": [
+        "Implemented core user-facing pages including Add Run, Find Run, and Awards.",
+        "Created the About page template and contributed to layout and UI consistency.",
+        "Set up and debugged deployment and environment issues on Vercel.",
+        "Collaborated using GitHub issues, branches, pull requests, and project boards.",
+        "Wrote project documentation and the README for developer setup and usage."
+      ]
+    },
+    {
+      "company": "EE 160 & EE 205 Coursework",
+      "position": "Student Programmer",
+      "website": "",
+      "startDate": "2020",
+      "endDate": "2024",
+      "summary": "Completed core computer engineering programming courses focusing on problem-solving, algorithms, and data structures using C and C++.",
+      "highlights": [
+        "Developed strong foundations in C programming through algorithmic problem solving (EE 160).",
+        "Built and debugged C++ programs involving classes, inheritance, and modular design (EE 205).",
+        "Gained hands-on experience with pointers, memory management, and structured programming.",
+        "Strengthened debugging, testing, and code-organization skills."
+      ]
+    },
+    {
+      "company": "Independent Projects",
+      "position": "Student Developer",
+      "website": "",
+      "startDate": "2023",
+      "endDate": "Present",
+      "summary": "Self-directed programming projects exploring AI, game logic, and web development.",
+      "highlights": [
+        "Created a reinforcement learning agent for the board game Tigers & Goats.",
+        "Built a Wordle game logic engine in Python.",
+        "Developed small utilities, scripts, and experiments to improve programming skills."
       ]
     }
   ],
@@ -74,6 +134,3 @@
     }
   ]
 }
-
-
-  
