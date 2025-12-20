@@ -59,8 +59,8 @@ This repository contains the full source code, issues, and project documentation
 
 ## Find Run Page
 
-![Find Run Page](../img/run-route-hub-find-run.png)
+![Find Run Page](img/run-route-hub-find-run.png)
 
 ## Awards Page
 
-![Awards Page](../img/run-route-hub-awards.png)
+![Awards Page](img/run-route-hub-awards.png)
