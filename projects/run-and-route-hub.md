@@ -4,7 +4,7 @@ type: project
 title: "Run-and-Route Hub"
 date: 2025
 published: true
-image: img/run-route-hub-thumb.png   # homepage thumbnail ONLY
+image: img/run-route-hub-thumb.png   # homepage thumbnail
 labels:
   - Software Engineering
   - Web Development
@@ -49,18 +49,26 @@ Overall, I learned how important communication, planning, and clear code organiz
 View our GitHub organization repository here:  
 https://github.com/ORG-NAME/run-and-route-hub
 
+---
+
 ## Landing Page
 
-![Landing Page](/img/run-route-hub-landing.png)
+<img src="/img/run-route-hub-landing.png" width="750">
+
+---
 
 ## Add Run Page
 
-![Add Run Page](/img/run-route-hub-add-run.png)
+<img src="/img/run-route-hub-add-run.png" width="750">
+
+---
 
 ## Find Run Page
 
-![Find Run Page](/img/run-route-hub-find-run.png)
+<img src="/img/run-route-hub-find-run.png" width="750">
+
+---
 
 ## Awards Page
 
-![Awards Page](/img/run-route-hub-awards.png)
+<img src="/img/run-route-hub-awards.png" width="750">
