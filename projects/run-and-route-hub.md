@@ -51,11 +51,11 @@ This repository contains the full source code, issues, and project documentation
 
 ## Landing Page
 
-![Run-and-Route Hub Landing Page](/img/run-route-hub-landing.png)
+![Run-and-Route Hub Landing Page](img/run-route-hub-landing.png)
 
 ## Add Run Page
 
-![Add Run Page](/img/run-route-hub-add-run.png)
+![Add Run Page](img/run-route-hub-add-run.png)
 
 ## Find Run Page
 
