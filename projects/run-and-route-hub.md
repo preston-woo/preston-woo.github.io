@@ -1,8 +1,10 @@
 ---
 layout: project
+type: project
 title: "Run-and-Route Hub"
-date: 2025-12-20
-image: ../img/run-route-hub-landing.png   # header image shown next to the title
+date: 2025
+published: true
+image: img/run-route-hub-landing.png
 labels:
   - Software Engineering
   - Web Development
