@@ -1,52 +1,41 @@
 ---
 layout: essay
 type: essay
-title: "Effort Estimation and Tracking Reflection"
+title: "Why Estimating My Work Was Harder Than I Expected"
 date: 2025-12-14
 published: true
 labels:
-  - Effort Estimation
-  - Project Management
   - Software Engineering
+  - Effort Estimation
   - ICS 314
 ---
 
+## Introduction
+Before working on the Run-and-Route Hub project, I didn’t think much about effort estimation. I usually just worked on tasks until they were done. But throughout the milestones, I learned that estimating and tracking effort is actually an important part of managing a project. It helps with planning, reduces stress, and gives a better idea of how long different kinds of work really take. This essay explains how I approached estimation, what I learned, and what I would change for next time.
+
 ## How I Made My Effort Estimates
-
-I made my effort estimates by breaking each issue into smaller tasks and comparing them to similar work I had done in previous milestones. I mostly relied on my experience from M1 and M2, especially when working on UI-related features that reused existing React and Bootstrap patterns.
-
-For backend-related tasks, I estimated more conservatively because they usually involved more uncertainty. Database-related work and Prisma configuration often required additional debugging, so I expected those tasks to take longer. I also separated my thinking into coding effort and non-coding effort, which helped me better understand the total scope of each issue before starting.
+I made my estimates by breaking each issue into smaller tasks and comparing them to similar work from earlier milestones. UI tasks were easier to estimate because they reused patterns I already understood from previous React work. Backend tasks, especially anything involving Prisma or the database, were harder to predict, so I estimated more conservatively.  
+Separating coding effort from non-coding effort also helped. Thinking about planning, documentation, and debugging as their own time investments made my estimates more realistic.
 
 ## Benefits of Estimating in Advance
-
-Even when my estimates were not very accurate, estimating ahead of time was still helpful. It forced me to think through what steps were required to complete a task and identify potential challenges early on. For example, features that initially looked like simple UI changes often required more planning or refactoring than expected.
-
-Estimating also helped with prioritization. Tasks with higher estimated effort were started earlier, which reduced stress later in the milestone. Overall, estimating provided structure, even when the actual time spent differed from the estimate.
+Even when my estimates weren’t perfect, the process still helped. Estimating forced me to think ahead about what a feature needed and what steps were involved. Some tasks that looked simple on the surface ended up requiring more planning or refactoring.  
+Estimating also helped with prioritization. Tasks with higher estimated effort were started earlier, which prevented last-minute stress. Overall, estimation added structure to my workflow, even when the actual time didn’t match the estimate exactly.
 
 ## Tracking Actual Effort
-
-Tracking actual effort was useful because it showed where my time was really going. In many cases, I spent more time debugging, researching documentation, or coordinating with teammates than writing code itself. This made it clear that non-coding effort is a significant part of software development and should not be underestimated.
-
-Comparing estimated effort with actual effort helped me improve my estimates over time, especially for backend and database-related tasks.
+Tracking actual effort showed me where my time was really going. I realized that a lot of work happened outside of writing code—reading documentation, debugging odd errors, and discussing changes with teammates. Non-coding work ended up being a much bigger portion of the project than I expected.  
+Comparing estimated effort with actual effort helped me get better at predicting backend tasks and database work.
 
 ## How I Tracked My Effort
-
-I tracked my effort manually by keeping track of when I started and stopped working on an issue. Coding effort included time spent writing, testing, and debugging code. Non-coding effort included planning features, discussing changes with teammates, reading documentation, and writing documentation.
-
-While this approach was not perfectly precise, it was consistent and accurate enough to understand overall trends. I avoided counting breaks or unrelated activities as part of my effort.
+I tracked my effort manually by noting when I started and stopped working on an issue. Coding effort included writing, testing, and debugging code. Non-coding effort included planning features, documenting decisions, discussing tasks with teammates, and reading documentation.  
+This method wasn’t perfectly precise, but it was consistent enough for me to see patterns and understand where my time was going.
 
 ## What I Would Change Next Time
-
-In future projects, I would break issues into smaller and more focused tasks before estimating. Some issues ended up taking longer than expected because they included multiple hidden steps. I would also plan extra buffer time for tasks involving databases or authentication, since those areas tended to introduce unexpected problems.
-
-For effort tracking, I would consider using a lightweight timing tool to improve accuracy, especially for non-coding work.
+For future projects, I would break issues into smaller and more specific tasks before estimating. Some issues took longer because they contained multiple hidden steps. I would also give myself more buffer time for anything involving databases or authentication because those tasks often introduced unexpected complexity.  
+To improve accuracy, I might use a lightweight timing tool instead of manual tracking.
 
 ## AI Usage
-
-I used AI tools (ChatGPT) during this project to help with brainstorming feature ideas, understanding errors, and generating initial code drafts. AI-assisted work that resulted in code was counted as coding effort. This included time spent writing prompts, reviewing responses, debugging issues, and integrating the generated code into the existing project.
-
-Most AI-generated code required modification to fit the project’s structure and coding standards. Time spent reviewing and adjusting AI output was included in my effort tracking.
+I used AI tools like ChatGPT to help brainstorm ideas, understand errors, and generate initial drafts for certain features. When AI contributed to a piece of code, I counted that as coding effort because it still required reviewing, testing, debugging, and adjusting the output to fit the project.  
+Time spent prompting, reading responses, and integrating the code was also included in my effort tracking.
 
 ## Conclusion
-
-Overall, the effort estimation and tracking process helped me better understand how I work on software projects. Even though my estimates were not always accurate, the process encouraged better planning and reflection. Tracking actual effort showed me the importance of non-coding tasks, and I would continue using a similar approach in future projects.
+Estimating and tracking effort helped me understand how I work on software projects. Even though my estimates were not always accurate, the process encouraged better planning and reflection. Tracking actual effort showed me how important non-coding tasks are, and I would continue using a similar approach in future projects to stay organized and reduce stress.
