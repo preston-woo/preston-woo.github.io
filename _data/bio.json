@@ -6,7 +6,7 @@
     "email": "ppw@hawaii.edu",
     "phone": "",
     "website": "https://preston-woo.github.io",
-    "summary": "I am studying for a B.S. in Computer Engineering in the Department of Electrical and Computer Engineering at the University of Hawaii. I expect to graduate in Fall 2025.",
+    "summary": "I am studying for a B.S. in Computer Engineering at the University of Hawaii at Manoa. My interests include software engineering, artificial intelligence, and building practical applications through collaborative development. I expect to graduate in Fall 2025.",
     "location": {
       "address": "",
       "postalCode": "96813",
@@ -15,29 +15,58 @@
       "region": "Hawaii"
     },
     "profiles": [
-      { "network": "github", "username": "preston-woo", "url": "http://github.com/preston-woo" },
-      { "network": "linkedin", "username": "preston-woo", "url": "http://linkedin.com/in/preston-woo" }
+      {
+        "network": "github",
+        "username": "preston-woo",
+        "url": "http://github.com/preston-woo"
+      },
+      {
+        "network": "linkedin",
+        "username": "preston-woo",
+        "url": "http://linkedin.com/in/preston-woo"
+      }
     ]
   },
+
   "interests": [
     { "name": "Software Engineering" },
     { "name": "Artificial Intelligence" },
     { "name": "Reinforcement Learning" },
+    { "name": "Web Development" },
     { "name": "Game Development" }
   ],
+
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": ["C", "C++", "JavaScript", "Python"]
+      "keywords": [
+        "C",
+        "C++",
+        "JavaScript",
+        "Python",
+        "React",
+        "Next.js",
+        "Prisma",
+        "Bootstrap",
+        "Semantic UI"
+      ]
     },
     {
-      "name": "Toolsets/OS",
-      "keywords": ["MacOS", "Git/GitHub"]
+      "name": "Toolsets / Platforms",
+      "keywords": [
+        "Git",
+        "GitHub",
+        "VS Code",
+        "Node.js",
+        "Vercel",
+        "macOS"
+      ]
     }
   ],
+
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
+      "institution": "University of Hawaii at Manoa",
       "area": "Computer Engineering",
       "studyType": "B.S.",
       "startDate": "2020",
@@ -45,5 +74,6 @@
     }
   ]
 }
+
 
   
