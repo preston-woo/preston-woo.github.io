@@ -4,7 +4,7 @@ type: project
 title: "Run-and-Route Hub"
 date: 2025
 published: true
-image: img/run-route-hub-landing.png
+image: img/run-route-hub-thumb.png   # homepage thumbnail ONLY
 labels:
   - Software Engineering
   - Web Development
@@ -49,11 +49,9 @@ Overall, I learned how important communication, planning, and clear code organiz
 View our GitHub organization repository here:  
 https://github.com/ORG-NAME/run-and-route-hub
 
-This repository contains the full source code, issues, and project documentation for Run-and-Route Hub.
-
 ## Landing Page
 
-![Run-and-Route Hub Landing Page](/img/run-route-hub-landing.png)
+![Landing Page](/img/run-route-hub-landing.png)
 
 ## Add Run Page
 
